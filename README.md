@@ -1,5 +1,7 @@
 # 🎙️ Setup Rust-Zumble
 
+> 🇧🇷 **Tutorial em Português Brasil**
+
 Script de instalação automatizada do **Rust-Mumble/Zumble** (servidor de voz externo) para Ubuntu/Debian.
 
 O Zumble é um substituto de alta performance para o servidor de voz integrado do FiveM, criado e mantido por **AvarianKnight**. Diferente do pma-voice padrão, o Zumble roda o servidor de voz em uma máquina separada, reduzindo significativamente lag de voz, áudio robotizado e outros problemas comuns — essencial para servidores com muitos jogadores.
@@ -21,12 +23,6 @@ cd setup-rust-zumble
 chmod +x setup-rust-zumble.sh
 sudo ./setup-rust-zumble.sh
 ```
-
-> **Dica:** Se aparecerem prompts interativos durante a instalação, rode:
-> ```bash
-> export DEBIAN_FRONTEND=noninteractive
-> sudo -E ./setup-rust-zumble.sh
-> ```
 
 ## 🔧 O que o script faz
 
@@ -219,3 +215,7 @@ MIT License
 ## 🤝 Contribuições
 
 Contribuições são bem-vindas! Abra uma issue ou pull request.
+
+---
+
+**Feito com ❤️ para a comunidade FiveM Brasil**
